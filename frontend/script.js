@@ -2,7 +2,7 @@ function sendMessage() {
   const name = document.getElementById('name').value;
   const message = document.getElementById('message').value;
 
-  fetch('https://google-sheets-backend-ixsc.onrender.com/submit', {
+  fetch('https://google-sheets-backend-1.onrender.com/submit', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, message })
